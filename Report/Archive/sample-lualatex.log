@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.16)  5 JAN 2021 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.16)  6 JAN 2021 10:46
 entering extended mode
 **./sample-lualatex.tex
 (sample-lualatex.tex
@@ -1290,7 +1290,7 @@ Package rerunfilecheck Info: File `sample-lualatex.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  19886 strings out of 480930
- 293628 string characters out of 2909547
+ 293684 string characters out of 2909547
  644933 words of memory out of 3000000
  34944 multiletter control sequences out of 15000+200000
  663753 words of font info for 210 fonts, out of 3000000 for 9000
