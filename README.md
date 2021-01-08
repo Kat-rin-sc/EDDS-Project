@@ -5,7 +5,9 @@
 #### Contact details
 e12005481@student.tuwien.ac.at (Jakub Ciemięga)
 
-e1503964@tuwien.ac.at (Katrin Schreiberhuber
+e1503964@tuwien.ac.at (Katrin Schreiberhuber)
+
+e12006880@student.tuwien.ac.at (Mariusz Karpowicz)
 
 #### Environment settings
 - Python version: '2.7'
@@ -38,4 +40,6 @@ e1503964@tuwien.ac.at (Katrin Schreiberhuber
 - run the jupyter notebook in /Analysis/Experiment_2.ipynb to generate the results for experiment 2.
 
 
-##### and so on...
+##### To analyze Experiment 3 parameters:
+- To generate plots of recall and precision from parameters alpha, d, lambda take data from /datasets/Calculated-parameters
+- Run /Analysis/Experiment-3-parameters-calculation.ipynb to generate plots
