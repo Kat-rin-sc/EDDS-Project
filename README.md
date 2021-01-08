@@ -8,7 +8,6 @@ e12005481@student.tuwien.ac.at (Jakub Ciemięga)
 e1503964@tuwien.ac.at (Katrin Schreiberhuber
 
 ##### Environment settings
-as a custom library was implemented in Python 2, please use Python 2.7 to execute this code.
 - Python version: '2.7'
 - Install the required libraries
 
