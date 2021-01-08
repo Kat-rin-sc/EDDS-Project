@@ -30,7 +30,7 @@ e1503964@tuwien.ac.at (Katrin Schreiberhuber
 
 #### To calculate the metrics  of experiment 1 and perform the two-tailed paired t-tests:
 - all result files have to be in datasets/result/
-- run STACP/STACP/tests.py
+- run Analysis/tests.py
 
 #### To run Experiment 2, comparing performance on data sparsity levels:
 - create new training data by executing /Analysis/generate_new_train_data.py (you can skip this step as the datasets are already included in the right folder)
