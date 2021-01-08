@@ -15,14 +15,18 @@ e1503964@tuwien.ac.at (Katrin Schreiberhuber
 
 - Open and run STACP/recommendation_stacp.py
 - When the execution is finished, the results of the run will be saved in the folder STACP/datasets/result/xxx.txt 
-- You have to change the name you want to save the results as in the recommendation_stacp.py file in line 104-110 accordingly!
-- To change to STACP_NoTC go to line 196 and change lambda = 1
-- To change to STACP_NoCTX go to line ....
+- **Changes to be considered before running the code:**
+    - which training file to use for training the model (check line 182)
+    - which version of the algorithm to use
+        - To change to STACP_NoTC go to line 196 and change lambda = 1
+        - To change to STACP_NoCTX go to line ....
+    - under which name to save the result files of the run (check lines 104-110)
 
 #### To run the code for the LRT algorithm and create the result files:
 - Open and run  LRT/recommendation_LRT.py
 - When the execution is finished, the results of the run will be saved in the folder STACP/datasets/result/xxx.txt 
 - You have to change the name you want to save the results as in the recommendation_stacp.py file in line 104-110 accordingly!
+- change the train_file used in the algorithm if this is what you want to analyse.
 
 #### To calculate the metrics  of experiment 1 and perform the two-tailed paired t-tests:
 - all result files have to be in datasets/result/
