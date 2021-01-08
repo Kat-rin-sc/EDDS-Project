@@ -4,6 +4,7 @@
 
 ##### Contact details
 e12005481@student.tuwien.ac.at (Jakub Ciemięga)
+
 e1503964@tuwien.ac.at (Katrin Schreiberhuber
 
 ##### Environment settings
