@@ -53,14 +53,15 @@ def main():
     TAMF.save_model("./tmp/")
     # TAMF.load_model("./tmp/")
 
-    # result_out = open("./result/recsys13_top_" + str(top_k) + ".txt", 'w')
 
     all_uids = range(user_num)
     all_lids = range(poi_num)
     np.random.shuffle(all_uids)
-    rec_list = open("./result/reclist_top_" + str(top_k) + ".txt", 'w')
-    result_10 = open("./result/result_top_" + str(10) + ".txt", 'w')
-    result_20 = open("./result/result_top_" + str(20) + ".txt", 'w')
+
+    # Change name of file where you want to save the results here:
+    rec_list = open("../datasets/result/reclist_top_" + str(top_k) + ".txt", 'w')
+    result_10 = open("../datasets/result/result_top_" + str(10) + ".txt", 'w')
+    result_20 = open("../datasets/result/result_top_" + str(20) + ".txt", 'w')
 
     precision10, recall10, ndcg10= 0,0,0
     precision20, recall20, ndcg20= 0,0,0
@@ -101,7 +102,7 @@ def main():
 
 
 if __name__ == '__main__':
-    data_dir = "./datasets/gowalla_u5628/"
+    data_dir = "../datasets/gowalla_u5628/"
 
     size_file = data_dir + "Gowalla_data_size.txt"
     check_in_file = data_dir + "Gowalla_checkins.txt"
