@@ -2,6 +2,12 @@
 ## Reproduction of paper results - Joint Geographicaland Temporal Modeling Based on MatrixFactorization for Point-of-Interest Recommendation
 ### Katrin Schreiberhuber, Mariusz Karpowicz, Jakub Ciemięga
 
+code for the STACP algorithm by Hossein A. Rahmani. 2020.Joint Geographical and Temporal Model-ing based on Matrix Factorization for Point-of-Interest Recommendation:
+https://github.com/rahmanidashti/STACP
+
+code for the LRT algorithm by *_____*
+github...
+
 #### Contact details
 e12005481@student.tuwien.ac.at (Jakub Ciemięga)
 
@@ -12,6 +18,7 @@ e12006880@student.tuwien.ac.at (Mariusz Karpowicz)
 #### Environment settings
 - Python version: '2.7'
 - Install the required libraries
+
 
 #### To run the code for the STACP and create the result files:
 
