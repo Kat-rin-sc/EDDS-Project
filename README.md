@@ -47,8 +47,8 @@ e12006880@student.tuwien.ac.at (Mariusz Karpowicz)
 - run the jupyter notebook in /Analysis/Experiment_2.ipynb to generate the results for experiment 2.
 
 
-##### To analyze Experiment 3 parameters:
+#### To analyze Experiment 3 parameters:
 - To generate plots of recall and precision from parameters alpha, d, lambda take data from /datasets/parameters.txt
 - Run /Analysis/Experiment-3-parameters-calculation.ipynb to generate plots
 - To generate results for parameters.txt for different parameters, they need to be changed in stacp/recommendation_stacp.py in lines 191-195
-- Values in file parameters.txt are average values of given column from output file of aforementioned code file
+- Values in file parameters.txt are average values of given column from output file of aforementioned code file.
